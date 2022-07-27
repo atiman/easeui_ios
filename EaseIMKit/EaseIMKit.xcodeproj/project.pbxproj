@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12ED5FE42890DAE500F2FF44 /* ChatPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12ED5FE22890DAE500F2FF44 /* ChatPopView.m */; };
+		12ED5FE52890DAE500F2FF44 /* ChatPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ED5FE32890DAE500F2FF44 /* ChatPopView.h */; };
 		90892DDC25764D0900F50368 /* EaseIMKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90892DDB25764D0900F50368 /* EaseIMKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E6AD3FA26B3097C00F620D5 /* EasePublicHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6AD3F526B3097C00F620D5 /* EasePublicHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E6AD8FC26B3186600F620D5 /* EaseExtMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6AD75326B3186400F620D5 /* EaseExtMenuModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -386,6 +388,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12ED5FE22890DAE500F2FF44 /* ChatPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatPopView.m; sourceTree = "<group>"; };
+		12ED5FE32890DAE500F2FF44 /* ChatPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatPopView.h; sourceTree = "<group>"; };
 		90892DDB25764D0900F50368 /* EaseIMKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseIMKit.h; sourceTree = "<group>"; };
 		90A039F0254A6E7600D57B73 /* EaseIMKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EaseIMKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A039F4254A6E7600D57B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -861,6 +865,8 @@
 		9E6AD75926B3186400F620D5 /* ChatBar */ = {
 			isa = PBXGroup;
 			children = (
+				12ED5FE32890DAE500F2FF44 /* ChatPopView.h */,
+				12ED5FE22890DAE500F2FF44 /* ChatPopView.m */,
 				9E6AD75A26B3186400F620D5 /* EMChatBar.h */,
 				9E6AD75B26B3186400F620D5 /* MoreView */,
 				9E6AD76D26B3186400F620D5 /* EMChatBar.m */,
@@ -1645,6 +1651,7 @@
 				9E6AD9D226B3186700F620D5 /* UIButton+EaseWebCache.h in Headers */,
 				9E6AD93826B3186600F620D5 /* EMMsgTouchIncident.h in Headers */,
 				9E6AD9CD26B3186700F620D5 /* EaseImageCachesManager.h in Headers */,
+				12ED5FE52890DAE500F2FF44 /* ChatPopView.h in Headers */,
 				9E6AD9BB26B3186700F620D5 /* EaseCollectionViewController.h in Headers */,
 				9E6AD99126B3186700F620D5 /* EaseCommon.h in Headers */,
 				9E6AD95A26B3186600F620D5 /* EaseBaseTableViewController.h in Headers */,
@@ -1964,6 +1971,7 @@
 				9E6AD94A26B3186600F620D5 /* EMPickFileViewController.m in Sources */,
 				9E6ADA3326B3186800F620D5 /* NSBezierPath+EaseRoundedCorners.m in Sources */,
 				9E6AD91A26B3186600F620D5 /* EaseOneLoadingAnimationView.m in Sources */,
+				12ED5FE42890DAE500F2FF44 /* ChatPopView.m in Sources */,
 				9E6ADA4F26B3186800F620D5 /* EaseTextViewController.m in Sources */,
 				9E6AD95826B3186600F620D5 /* EaseBaseTableViewController.m in Sources */,
 				9E6AD90326B3186600F620D5 /* EMMoreFunctionView.m in Sources */,
